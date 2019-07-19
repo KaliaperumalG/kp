@@ -1,4 +1,4 @@
-start1,end1 =map(int,(input().split()))
-for n in range (start1+1,end1):
-    if n%2 ==0:
-        print(n,end1 ="")
+start,end =map(int,(input().split()))
+for n1 in range (start+1,end):
+    if n1%2 ==0:
+        print(n1,end ="")
