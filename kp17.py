@@ -1,10 +1,11 @@
-k1=int(input())
-p1=a1
-sum=0
-while(p1>0):
-   sum=sum+(p1%10)**3
-   p1=p1//10
-if(sum==k1):
-  print('yes')
+n1 = int(input(""))
+sum = 0
+temp = n1
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+if n1 == sum:
+   print("yes")
 else:
-  print('no')
+   print("no")
