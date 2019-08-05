@@ -1,4 +1,4 @@
-#kp31
+//kp31
 #include <stdio.h>
 
 int main() {
