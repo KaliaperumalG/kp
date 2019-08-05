@@ -13,10 +13,9 @@ int main() {
     for(i = a; i <= tn; i = i + d)
     {
         if(i != tn)
-            printf("%d + ", i);
+            printf("%d", i);
         else
             printf("%d", sum);
     }
-    printf("\n");
     return 0;
 }
