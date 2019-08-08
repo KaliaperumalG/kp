@@ -1,0 +1,10 @@
+d1=int(input())
+c1=1
+l1=1
+p1=0
+while(d!=0):
+  c1=l1
+  l1=p1
+  p1=c1+l1
+  print(p1,end=' ')
+  d1=d1-1
