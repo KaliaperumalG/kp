@@ -4,6 +4,6 @@ p=a*b
 c=int(math.sqrt(p))
 d=c*c
 if(d==p):
-  print("YES")
+  print("yes")
 else:
-  print("NO")
+  print("no")
